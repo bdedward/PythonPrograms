@@ -1,3 +1,7 @@
+#This program will take in a string and determine how many characters
+#need to be removed in order to form a palindrome with the existing 
+#characters
+
 FLAG = 0
 NumberChars = 256
 length = 0
@@ -33,5 +37,5 @@ def solution(s):
     recursion(s)
     return before - length
 
-
+#Driver code to test "solution", solutions takes a string
 print(solution("america"))
