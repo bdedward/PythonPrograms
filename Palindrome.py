@@ -37,5 +37,5 @@ def solution(s):
     recursion(s)
     return before - length
 
-#Driver code to test "solution", solutions takes a string
+#Driver code to test "solution", solution takes a string
 print(solution("america"))
