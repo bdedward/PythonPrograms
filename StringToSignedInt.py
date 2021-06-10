@@ -1,12 +1,12 @@
 #This solution takes a string representation of an integer and returns a signed integer
 
 #It also checks the bounds of a 32-bit signed integer. If the resultant integer is
-#outside of the bounds 2**31 -1 & 2**31, then returns the lower or upper limit of the 
+#outside of the bounds -2**31 -1 & 2**31, then returns the lower or upper limit of the 
 #32-bit signed integer
 
 #This solution will also parse the first integer, even if this number is attached to a word
 #which contains characters other than digits.  However, this solutions returns 0 if the first
-#word begins with characters other than a digit
+#word begins with characters other than a digit(not including a +/- sign)
 
 import string
 class Solution(object):
